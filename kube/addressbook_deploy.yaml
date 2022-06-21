@@ -18,7 +18,7 @@ spec:
         app: addressbook
     spec:
       containers:
-/      - image: gcr.io/spatial-subject-344813/addressbook:0.1.3
+      - image: gcr.io/spatial-subject-344813/addressbook:0.1.3
         name: addressbook
         ports:
             - containerPort: 8080
